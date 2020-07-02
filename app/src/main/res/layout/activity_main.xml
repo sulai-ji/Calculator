@@ -9,50 +9,70 @@
     android:orientation="horizontal"
     tools:context=".control.MainActivity">
 
-    <Button
+    <TextView
+        android:id="@+id/text"
         android:layout_columnSpan="4"
         android:textSize="50sp"
         android:layout_marginRight="5dp"
         android:layout_gravity="fill_horizontal"/>
     <Button
+        android:id="@+id/ac"
         android:text="AC"/>
     <Button
+        android:id="@+id/opposite_value"
         android:text="+/-"/>
     <Button
+        android:id="@+id/percent_sign"
         android:text="%"/>
     <Button
+        android:id="@+id/division"
         android:text="÷"/>
     <Button
+        android:id="@+id/seven"
         android:text="7"/>
     <Button
+        android:id="@+id/eight"
         android:text="8"/>
     <Button
+        android:id="@+id/night"
         android:text="9"/>
     <Button
+        android:id="@+id/multiply"
         android:text="x"/>
     <Button
+        android:id="@+id/four"
         android:text="4"/>
     <Button
+        android:id="@+id/five"
         android:text="5"/>
     <Button
+        android:id="@+id/six"
         android:text="6"/>
     <Button
+        android:id="@+id/less"
         android:text="-"/>
     <Button
+        android:id="@+id/one"
         android:text="1"/>
     <Button
+        android:id="@+id/two"
         android:text="2"/>
     <Button
+        android:id="@+id/three"
         android:text="3"/>
     <Button
+        android:id="@+id/add"
         android:text="+"/>
     <Button
+        android:id="@+id/zero"
         android:layout_columnSpan="2"
         android:text="0"
         android:layout_gravity="fill_horizontal"/>
     <Button
+        android:id="@+id/point"
         android:text="."/>
     <Button
+        android:id="@+id/equal"
         android:text="="/>
 
 
